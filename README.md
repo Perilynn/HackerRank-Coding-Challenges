@@ -18,5 +18,6 @@ When you want to submit your code, drop the file into the corresponding sub-fold
 
 ```
 git add YourName.filetype       //e.x. Aravind.java
+git commit -m "submission"
 git push origin master
 ```
