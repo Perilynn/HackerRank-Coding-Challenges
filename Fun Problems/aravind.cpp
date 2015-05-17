@@ -15,7 +15,7 @@ void ReplacePeriods(char* input) {
             indexOn -= 2;
         }
         else {
-            input[indexOn = input[i];
+            input[indexOn] = input[i];
             indexOn--;
         }
     }
