@@ -38,8 +38,8 @@ class Solution{
             if(nums.size() %2 == 1)
                 System.out.println(nums.get(((nums.size()-1) /2)));
             if(nums.size() % 2 == 0){
-                int firstMed = nums.get((nums.size() -1)/2);
-                int secondMed = nums.get((nums.size()-1)/2 +1);
+                int firstMed = nums.get((nums.size())/2);
+                int secondMed = nums.get((nums.size())/2 -1);
                 double retval = (firstMed + secondMed)/2.0;
                 System.out.println(retval);
             }
