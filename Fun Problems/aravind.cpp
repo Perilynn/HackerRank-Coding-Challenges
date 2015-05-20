@@ -51,3 +51,33 @@ long long exponentLog(long long x, long long y, long long current) {
 long long exponentLog(long long x, long long y) { 
     return exponentLog(x, y, 1);
 }
+
+/*
+Given a class of Interval, which has start and end point as integer,
+and a list of such Intervals. We want to insert another interval into
+this list of Intervals.
+eg: <4,7><10,15><20,21>
+insert <5, 8>, get <4,8><10,15><20,21>
+insert <16,17>, get <4,8><10,15><16,17><20,21>
+insert <1,30>, get <1,30>
+*/
+
+public List<Interval> insert(Interval x, Vector<Interval> list) {
+    list.push_back(x);
+    sort(list.begin(), list.end());
+    Vector<Interval> returnList;
+    auto it = list.begin();
+    Interval curr= *(it)++;
+    while(it != list.end()) {
+        if(curr.end > it->start) {
+            curr.end == std::max(curr.end, it->end);
+        }
+        else {
+            returnList.push_back(curr);
+            curr = *(it);
+        }
+        it++;
+    }
+    returnList.push_back(current);
+    return returnList;
+}
