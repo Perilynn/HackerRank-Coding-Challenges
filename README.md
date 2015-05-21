@@ -35,17 +35,8 @@ git push origin master
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
 2. Given a char array with padded memory and a zero byte, replace all '.' with ';;'
   * E.g input might be:
-  *   | Index         |Value          |
-      | ------------- |:-------------:|
-      | 0             | \0            | 
-      |1              |               |
-      | 2             | r             | 
-      | 3             |               | 
-      | 4             | 5             | 
-      | 5             |               | 
-      | 6             | .             | 
-      | 7             |               | 
-      | 8             | 4             | 
+  * |Index|  0  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+  * |Value| \0  | - | r | - | 5 | - | . | - | 4 |
   * Outputs: [\0,r,5,;,;,4]
 3. Given a class ```Interval``` which has a start and end point as int and a list of such ```Interval```s, write a method to insert another ```Interval``` into the list
   * E.g <4,7><10,15><20,21>
