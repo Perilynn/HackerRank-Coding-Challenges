@@ -19,6 +19,7 @@ public class Solution {
         
             long moddedTotal = total % 100000;
             System.out.println(moddedTotal);
+            numOps--;
         }
         
         
