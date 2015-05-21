@@ -47,4 +47,4 @@ git push origin master
   * E.g <4,7><10,15><20,21>
   * insert <5,8> gets <4,8><10,15><20,21>
   * insert <16,17> gets <4,8><10,15><16,17><20,21>
-  *insert <1,30> gets <1,30>
+  * insert <1,30> gets <1,30>
