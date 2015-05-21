@@ -8,10 +8,7 @@ public class Solution {
         Scanner keyboard = new Scanner(System.in);
         int numOps = keyboard.nextInt();
         while(numOps != 0) {
-            int numBulbs = keyboard.nextInt();
-            int total = 0;
-            total = ((numBulbs * 2) - 1) % 100000;
-            System.out.println(total);
+            System.out.println((((keyboard.nextInt() * 2) - 1) % 100000));
             numOps--;
         }
     }
