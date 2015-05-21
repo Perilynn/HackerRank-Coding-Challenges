@@ -24,13 +24,18 @@ git push origin master
 ```
 # Problems Covered:
 1. Closest Number - 5/18/15
+  * Catagory: Sorting
   * https://hackerrank.com/challenges/closest-number
 2. Median Updates - 5/19/15
+  * Catagory: Data Structures
   * https://hackerrank.com/challenges/median-updates  
 3. Diwali Lights - 5/20/15
+  * Catagory: Combinatorics
   * https://hackerrank.com/challenges/diwali-lights 
 4. Coin Challenge - 5/21/15
+  * Catagory: Dynamic Programming
   * https://hackerrank.com/challenges/coin-challenge
+  
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
 2. Given a char array with padded memory and a zero byte, replace all '.' with ';;'
