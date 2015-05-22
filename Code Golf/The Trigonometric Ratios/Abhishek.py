@@ -1,4 +1,4 @@
-#SCORE 8.50
+#SCORE 8.55
 from math import *
 for i in range(input()):
     a=input(); b=[0,0]
