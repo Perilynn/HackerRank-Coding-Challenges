@@ -40,8 +40,13 @@ class Solution{
             if(nums.size() % 2 == 0){
                 int firstMed = nums.get((nums.size())/2);
                 int secondMed = nums.get((nums.size())/2 -1);
-                double retval = (firstMed + secondMed)/2.0;
-                System.out.println(retval);
+                double retval = (firstMed/2.0) + (secondMed/2.0);
+                //always do a/2 + b/2 to prevent overflow
+                if(retval % 1 ==0) System.out.println((int)(retval));
+                else{
+                  System.out.printf("%.1f", retval);
+                  System.out.println();
+                }
             }
         }
     }
