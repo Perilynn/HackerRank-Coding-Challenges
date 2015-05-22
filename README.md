@@ -48,3 +48,16 @@ git push origin master
   * insert <5,8> gets <4,8><10,15><20,21>
   * insert <16,17> gets <4,8><10,15><16,17><20,21>
   * insert <1,30> gets <1,30>
+3. In a tree of nodes, where each node is defined as
+```
+class node
+{
+  public:
+    int value;
+    vector <node*> children
+    vector <node*> siblings
+};
+```
+assume given a tree, all nodes have their children vectors filled.
+fill their siblings vector
+
