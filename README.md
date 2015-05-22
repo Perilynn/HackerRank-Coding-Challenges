@@ -28,13 +28,16 @@ git push origin master
   * https://hackerrank.com/challenges/closest-number
 2. Median Updates - 5/19/15
   * Catagory: Data Structures
-  * https://hackerrank.com/challenges/median-updates  
+  * https://hackerrank.com/challenges/median-updates
 3. Diwali Lights - 5/20/15
   * Catagory: Combinatorics
   * https://hackerrank.com/challenges/diwali-lights 
 4. Coin Challenge - 5/21/15
   * Catagory: Dynamic Programming
   * https://hackerrank.com/challenges/coin-challenge
+5. The Trigonometric Ratios (Code Golf)
+  * https://www.hackerrank.com/challenges/trignometric-ratios
+  * Code Golf is a special kind of problem. Your score on the challenge is based on the number of lines it takes to solve the problem. The less lines, the higher the score (just like golf!). Of course, your code also has to solve the challenge correctly. You have until Sunday night for this challenge, so have at it!
   
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
