@@ -32,7 +32,6 @@ public class Solution {
         for(int j = 0; j < typeList.length; j++){
             for(int q = typeList[j]; q < vals.length;q++ ){
                 vals[q] += vals[q-typeList[j]];
-                System.out.println("int j = " + j + " int q = " + q + " vals[q] = " + vals[q] + " array = [" + vals[0]+ "," + vals[1]+ ","+vals[2]+ ","+vals[3]+ ","+vals[4] + "]");
             }
         }
         System.out.println(vals[targetVal]);
