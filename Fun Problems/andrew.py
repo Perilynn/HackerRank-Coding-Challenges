@@ -15,3 +15,22 @@ def toString(i):
         ret = d[i % 10] + ret
         i /= 10
     return ret
+
+# Fun Problem 6
+from string import digits
+
+def isNumber(s):
+    encounteredDecimal = False
+    for idx, char in enumerate(s):
+        if char == '-':
+            if idx != 0:
+                return False
+        elif char == '.':
+            if encounteredDecimal:
+                return False
+            else:
+                encounteredDecimal = True
+        else:
+            if char not in digits:
+                return False
+    return True
