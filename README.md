@@ -52,7 +52,7 @@ git push origin master
   * insert <5,8> gets <4,8><10,15><20,21>
   * insert <16,17> gets <4,8><10,15><16,17><20,21>
   * insert <1,30> gets <1,30>
-3. In a tree of nodes, where each node is defined as
+4. In a tree of nodes, where each node is defined as
 ```
 class node
 {
@@ -64,4 +64,17 @@ class node
 ```
 assume given a tree, all nodes have their children vectors filled.
 fill their siblings vector
+5.
+Convert string to int manually, and convert an int to a string manually
+E.x. "123" (type string) to 123 (type int)
+and 123 (type int) to "123" (type string)
+(boilerplate c++ example)
+```
+int toInt(string x) {
+  //your code here
+}
 
+string toString(int x) {
+  //your code here
+}
+```
