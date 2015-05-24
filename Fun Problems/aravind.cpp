@@ -105,3 +105,63 @@ void FillSiblingVector(node* root) {
         }
     }
 }
+
+/* 
+Convert string to int manually, and convert an int to a string manually
+*/
+
+int ToInt(string input) {
+    int val = 0;
+    for(int i = 0; i < input.size(); i++) value += (input[i] = '0') * pow(10, input.size() - i - 1);
+    return value;
+}
+
+string ToString(int input) {
+    bool isNeg = input < 0;
+    if(input == 0) return "0";
+    string value = "";
+    while(input != 0) {
+        value += pow(-1, negative) * (input % 10) + '0';
+        input /= 10;
+    }
+    if(negative) value += '-';
+    return Reverse(value);
+}
+
+
+
+/*
+Boolean function isNumber. given a string, return true if it is a
+valid number, return false if not. dont forget to account negatives
+and decimals
+*/
+
+bool IsNumber(string number) // no fractions
+{
+  bool foundDecimal = false;
+  int i = 0;
+  if (number[0] == '-')
+  {
+    i++;
+  }
+
+  for ( ; i < number.size(); i++)
+  {
+    if (number[i] == '.')
+    {
+      if (foundDecimal)
+      {
+        return false;
+      }
+      else
+      {
+        foundDecimal = true;
+      }
+    }
+    else if (!isdigit(number[i]))
+    {
+      return false;
+    }
+  }
+  return true;
+}

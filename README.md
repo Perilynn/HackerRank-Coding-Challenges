@@ -86,3 +86,4 @@ string toString(int x) {
 Boolean function isNumber. given a string, return true if it is a
 valid number, return false if not. dont forget to account negatives
 and decimals
+*/
