@@ -1,3 +1,6 @@
+import java.lang.*;
+import java.util.*;
+
 public class FunProblems {
     double toDouble(String str) {
         return Double.parseDouble(str);
