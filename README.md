@@ -39,6 +39,8 @@ git push origin master
   * https://www.hackerrank.com/challenges/trignometric-ratios
   * Code Golf is a special kind of problem. Your score on the challenge is based on the number of lines it takes to solve the problem. The less lines, the higher the score (just like golf!). Of course, your code also has to solve the challenge correctly. You have until Sunday night for this challenge, so have at it!
   * PUT YOUR SCORE IN YOUR FILE AS WELL!!!!!
+6. Fraud Detection - 5/26/15
+  * https://www.hackerrank.com/challenges/fraud-prevention
   
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
