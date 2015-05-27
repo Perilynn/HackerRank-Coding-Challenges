@@ -39,6 +39,8 @@ git push origin master
   * https://www.hackerrank.com/challenges/trignometric-ratios
   * Code Golf is a special kind of problem. Your score on the challenge is based on the number of lines it takes to solve the problem. The less lines, the higher the score (just like golf!). Of course, your code also has to solve the challenge correctly. You have until Sunday night for this challenge, so have at it!
   * PUT YOUR SCORE IN YOUR FILE AS WELL!!!!!
+6. Fraud Detection - 5/26/15
+  * https://www.hackerrank.com/challenges/fraud-prevention
   
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
@@ -52,7 +54,7 @@ git push origin master
   * insert <5,8> gets <4,8><10,15><20,21>
   * insert <16,17> gets <4,8><10,15><16,17><20,21>
   * insert <1,30> gets <1,30>
-3. In a tree of nodes, where each node is defined as
+4. In a tree of nodes, where each node is defined as
 ```
 class node
 {
@@ -65,3 +67,24 @@ class node
 assume given a tree, all nodes have their children vectors filled.
 fill their siblings vector
 
+5.
+Convert string to int manually, and convert an int to a string manually
+
+E.x. "123" (type string) to 123 (type int)
+
+and 123 (type int) to "123" (type string)
+(boilerplate c++ example)
+```
+int toInt(string x) {
+  //your code here
+}
+
+string toString(int x) {
+  //your code here
+}
+```
+
+6. 
+Boolean function isNumber. given a string, return true if it is a
+valid number, return false if not. dont forget to account negatives
+and decimals
