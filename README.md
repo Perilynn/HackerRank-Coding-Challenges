@@ -39,7 +39,11 @@ git push origin master
   * https://www.hackerrank.com/challenges/trignometric-ratios
   * Code Golf is a special kind of problem. Your score on the challenge is based on the number of lines it takes to solve the problem. The less lines, the higher the score (just like golf!). Of course, your code also has to solve the challenge correctly. You have until Sunday night for this challenge, so have at it!
   * PUT YOUR SCORE IN YOUR FILE AS WELL!!!!!
-  
+6. Fraud Detection
+  * https://www.hackerrank.com/challenges/fraud-prevention
+7. Connected Cell in a Grid
+  * https://www.hackerrank.com/challenges/connected-cell-in-a-grid
+
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
 2. Given a char array with padded memory and a zero byte, replace all '.' with ';;'
@@ -86,4 +90,3 @@ string toString(int x) {
 Boolean function isNumber. given a string, return true if it is a
 valid number, return false if not. dont forget to account negatives
 and decimals
-*/
