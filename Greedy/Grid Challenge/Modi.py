@@ -26,9 +26,9 @@ ith_soln = True
 def output_soln():
     global ith_soln
     if ith_soln:
-        print("##########  YES")
+        print("YES")
     else:
-        print("########### NO")
+        print("NO")
     return
 
 def check_sort_cols():
@@ -44,7 +44,7 @@ def check_sort_cols():
 def sort_rows():
     for row in matrix:
         row.sort()
-        print row
+        #print row
     return
 
 def get_inputs():
