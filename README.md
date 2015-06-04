@@ -43,6 +43,8 @@ git push origin master
   * https://www.hackerrank.com/challenges/fraud-prevention
 7. Connected Cell in a Grid
   * https://www.hackerrank.com/challenges/connected-cell-in-a-grid
+8. Grid Challenge
+  * https://www.hackerrank.com/challenges/grid-challenge
 
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
