@@ -23,32 +23,32 @@ git pull                // to prevent conflicts, always pull first
 git push origin master
 ```
 # Problems Covered:
-1. Closest Number - 5/18/15
+1. Closest Number - May 18
   * Catagory: Sorting
   * https://hackerrank.com/challenges/closest-number
-2. Median Updates - 5/19/15
+2. Median Updates - May 19
   * Catagory: Data Structures
   * https://hackerrank.com/challenges/median-updates
-3. Diwali Lights - 5/20/15
+3. Diwali Lights - May 20
   * Catagory: Combinatorics
   * https://hackerrank.com/challenges/diwali-lights 
-4. Coin Challenge - 5/21/15
+4. Coin Challenge - May 21
   * Catagory: Dynamic Programming
   * https://hackerrank.com/challenges/coin-challenge
-5. The Trigonometric Ratios (Code Golf)
+5. The Trigonometric Ratios (Code Golf) - May 23
   * https://www.hackerrank.com/challenges/trignometric-ratios
   * Code Golf is a special kind of problem. Your score on the challenge is based on the number of lines it takes to solve the problem. The less lines, the higher the score (just like golf!). Of course, your code also has to solve the challenge correctly. You have until Sunday night for this challenge, so have at it!
   * PUT YOUR SCORE IN YOUR FILE AS WELL!!!!!
-6. Fraud Detection
+6. Fraud Detection - May 27
   * Catagory: Strings
   * https://www.hackerrank.com/challenges/fraud-prevention
-7. Connected Cell in a Grid
+7. Connected Cell in a Grid - June 1
   * Catagory: Search
   * https://www.hackerrank.com/challenges/connected-cell-in-a-grid
-8. Grid Challenge
+8. Grid Challenge - June 4
   * Catagory: Greedy
   * https://www.hackerrank.com/challenges/grid-challenge
-9. Maximize Sum
+9. Maximize Sum - June 5
   * Catagory: Search
   * https://www.hackerrank.com/challenges/maximise-sum
 
