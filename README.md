@@ -48,6 +48,9 @@ git push origin master
 8. Grid Challenge
   * Catagory: Greedy
   * https://www.hackerrank.com/challenges/grid-challenge
+9. Maximize Sum
+  * Catagory: Search
+  * https://www.hackerrank.com/challenges/maximise-sum
 
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
