@@ -51,6 +51,8 @@ git push origin master
 9. Maximize Sum - June 5
   * Catagory: Search
   * https://www.hackerrank.com/challenges/maximise-sum
+10. Maximize Sum - June 8
+  * https://www.hackerrank.com/challenges/the-quickest-way-up
 
 #Fun Problems:
 1. Create an exponent function ```exp(x,y)``` that does x^y in O(log n) time
