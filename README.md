@@ -24,34 +24,35 @@ git push origin master
 ```
 # Problems Covered:
 1. Closest Number - May 18
-  * Catagory: Sorting
+  * Category: Sorting
   * https://hackerrank.com/challenges/closest-number
 2. Median Updates - May 19
-  * Catagory: Data Structures
+  * Category: Data Structures
   * https://hackerrank.com/challenges/median-updates
 3. Diwali Lights - May 20
-  * Catagory: Combinatorics
+  * Category: Combinatorics
   * https://hackerrank.com/challenges/diwali-lights 
 4. Coin Challenge - May 21
-  * Catagory: Dynamic Programming
+  * Category: Dynamic Programming
   * https://hackerrank.com/challenges/coin-challenge
 5. The Trigonometric Ratios (Code Golf) - May 23
   * https://www.hackerrank.com/challenges/trignometric-ratios
   * Code Golf is a special kind of problem. Your score on the challenge is based on the number of lines it takes to solve the problem. The less lines, the higher the score (just like golf!). Of course, your code also has to solve the challenge correctly. You have until Sunday night for this challenge, so have at it!
   * PUT YOUR SCORE IN YOUR FILE AS WELL!!!!!
 6. Fraud Detection - May 27
-  * Catagory: Strings
+  * Category: Strings
   * https://www.hackerrank.com/challenges/fraud-prevention
 7. Connected Cell in a Grid - June 1
-  * Catagory: Search
+  * Category: Search
   * https://www.hackerrank.com/challenges/connected-cell-in-a-grid
 8. Grid Challenge - June 4
-  * Catagory: Greedy
+  * Category: Greedy
   * https://www.hackerrank.com/challenges/grid-challenge
 9. Maximize Sum - June 5
-  * Catagory: Search
+  * Category: Search
   * https://www.hackerrank.com/challenges/maximise-sum
 10. Maximize Sum - June 8
+  * Category: Graph Theory
   * https://www.hackerrank.com/challenges/the-quickest-way-up
 
 #Fun Problems:
