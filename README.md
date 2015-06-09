@@ -51,7 +51,7 @@ git push origin master
 9. Maximize Sum - June 5
   * Category: Search
   * https://www.hackerrank.com/challenges/maximise-sum
-10. Maximize Sum - June 8
+10. Snakes and Ladders: The Quickest Way Up - June 8
   * Category: Graph Theory
   * https://www.hackerrank.com/challenges/the-quickest-way-up
 
