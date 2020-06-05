@@ -19,7 +19,7 @@ public class Solution {
     }
     
     public static int max(int[] coins, int N) {
-        int[] numCoins = new int[N+1];
+        long[] numCoins = new long[N+1];
         numCoins[0] = 1;
         for(int i = 0; i < coins.length; i++) {
             for(int j = coins[i]; j < numCoins.length; j++) {
