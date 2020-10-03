@@ -11,7 +11,7 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
         int M = scan.nextInt();
-        int[] coins = new int[M];
+        long[] coins = new long[M];
         for(int i = 0; i < M; i++) {
             coins[i] = scan.nextInt();
         }
